@@ -58,3 +58,7 @@ secao-imagem {
 .escola-div-conteudo{
     width: 35%;
 }
+
+>nome_img{
+    width: 120px;
+}
