@@ -1,3 +1,18 @@
+@import url(/styles/header.css);
+
+:root{
+    --cor-principal: #6ac762;
+    --cor-secundaria: #07fab1;
+    --cor-de-escrita: #9bdd30;
+    --cor-de-funo: #185a66;
+    
+
+
+
+
+}
+
+
 body {
     background-color: rgb(107, 255, 235);
 }
