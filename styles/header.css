@@ -7,16 +7,28 @@
 
 .cabecalho__menu{
     display: inline-block;
-    background-image: url("../img/hamburg.png");
+    background-image: url("../img/menu.svg");
     background-repeat: no-repeat;
     background-position: center;
     width: 24px;
     height: 24px;
 }
 
-.conteiner{
-    display: flex;
-    justify-content: space-between;
 
-    align-items: center;
+.container{
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+.container__imagem{
+    padding: 1em;
+}
+.cabecalho__lista{
+    display: none;
+    background-color: var(--branco);
+    position: absolute;
+    top: 100%;
+    width: 60vw;
+
 }
