@@ -32,3 +32,6 @@ align-items: center;
     width: 60vw;
 
 }
+.container__menu:checked~.cabecalho__lista{
+    display: block;
+}
