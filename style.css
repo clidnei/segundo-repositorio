@@ -42,7 +42,7 @@ header {
 }
 
 .cabecalho-imagem {
-    width: 10%;
+    width: 100%;
 
 }
 
@@ -68,7 +68,7 @@ header {
 .secao1-titolo {}
 
 secao-imagem {
-    width: 120%;
+    width: 30%;
 
 }
 
@@ -77,7 +77,7 @@ secao-imagem {
 }
 
 .nome_img {
-    width: 120px;
+    width: 30px;
 }
 .div-apresentacao{
     text-align: center;
