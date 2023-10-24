@@ -21,6 +21,27 @@ swiper-button-next{
 
 }
 
+.swiper-pgination {
+    position: initial;
+    margin: .5em 0
+}
+
+.card__descricao{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5em;
+}
+
+.card__botoes{
+    display: flex;
+    justify-content: space-between;
+}
+.botoes {
+   display: flex;
+
+}
+
+
 
 
 
