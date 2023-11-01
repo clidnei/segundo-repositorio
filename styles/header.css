@@ -1,18 +1,18 @@
 .cabecalho {
+    background-color: var(--cor-principal);
     display: flex;
     justify-content: space-between;
-    background-color: rgb(216, 45, 45);
     align-items: center;
-    position: relative;   
+    position: relative;
 }
 
 .cabecalho__menu {
-    display: inline-block;
+    width: 24px;
+    height: 24px;
     background-image: url("../img/menu.svg");
     background-repeat: no-repeat;
     background-position: center;
-    width: 24px;
-    height: 24px;
+    display: inline-block;
 }
 
 .container {
@@ -23,16 +23,16 @@
 
 .cabecalho-imagem{
     padding: 1em;
-    width: 40px;
 }
 
 .container__imagem {
     padding: 1em;
+    width: 40px;
 }
 
-.cabecalho__lista {
+.cabecalho-lista {
     display: none;
-    background-color: var(--white);
+    background-color: var(--cor-de-fundo);
     position: absolute;
     top: 100%;
     width: 50vw;
@@ -46,26 +46,25 @@
     display: none;
 }
 
-.cabecalho-lista-titulo{
+.cabecacalho-lista-titulo{
     padding: 1em;
-    color: var(--black);
+    color: var(--preto);
     font-weight: 700;
     text-transform: uppercase;
 }
 
 .cabecalho-lista-item{
     padding: 1em;
-    color: var(--cinza);
+    color: var(--azul);
 }
 
 .container-titulo{
     display: none;
-
 }
 
-.menu__lita-item{
+.menu__lista-item{
     background: var(--cor-principal);
-    color: var(--cinza);
+    color: var(--azul);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -89,12 +88,13 @@
     }
 
     .cabecalho__menu{
-     display: none;
+        display: none;
     }
 
     .cabecalho__favorito{
         display: none;
     }
+
     .opcoes{
         display: flex;
     }
@@ -103,6 +103,42 @@
         padding: 0 2em;
         text-transform: uppercase;
         color: var(--branco);
+    }
 
+    .opcoes__link{
+        text-decoration: none;
+        color: var(--branco);
+    }
+
+    .opcoes__botao:checked ~.cabecalho-lista{
+        display: block;
+        width: auto;
+    }
+
+    .opcoes__botao{
+        display: none;
+    }
+
+   
+}
+
+@media screen and (min-width: 1728px) {
+    .container__link {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: var(--branco);
+    }
+
+    .cabecalho {
+        padding: 0 2em;
+    }
+
+    .opcoes {
+        margin-right: auto;
+    }
+
+    .container__texto {
+        display: block;
     }
 }
